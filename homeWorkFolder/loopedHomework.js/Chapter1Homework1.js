@@ -3,17 +3,18 @@
 <head>
     
 </head>
-<h1>Using Objects like variables</h1>
+<h2>JavaScript Program</h2>
 <body>
 
     <p id = "Demo"></p>
+
     <script>
-    
     var text ="";
     var i =0;
+    
     while (i<10) {
         text +="The number is"+i+"</br>";
-        i++
+        i++;
     }
     document.getElementById("Demo").innerHTML=text;
     
