@@ -1,0 +1,1 @@
+Create an app that searches through a paragraph and locates items by keyword and puts them in an array.

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <title>iSmile - The Virtual Smiley Friend</title>
+    </head>
+    
+    <body onload="alert('Hello I Am Your smiley Friend');">
+    
+            <p id="smilesmile"></p>
+    
+    <div style="margin-top: 100px; text-align:center">
+    <img id="iSmileimg" src="frownEmoji.png" alt="iSmile" style="cursor :pointer" onclick="touchRock();">
+    </div>
+    
+
+    <script type="text/javascript">
+// creat a javascript function with the name touchRock.
+function touchRock() {
+// create a new variable named userName set it equal to prompt
+// asked the user for their name
+var userName = prompt ("what is your name Friend?", "Enter your name here Friend.");
+// decision making ? yes it is.
+// we set up a if statement to decide if the user entered a name.
+if (userName) {
+// if user entered name we alert the user its nice to meet your.
+alert("it is good to meet you, " + userName + ".");
+// Here we change the photo from unhappy to happy
+document.getElementById("iSmileimg").src="smileyEmoji.png";
+}
+}
+        </script>
+
+</body>
+</html>

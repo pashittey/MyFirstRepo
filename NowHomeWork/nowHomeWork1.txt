@@ -1,0 +1,99 @@
+
+Assignment
+HOMEWORK
+date 8/26/2019
+Posted 8:44 PM
+Assigned
+// Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+// makes10(9, 10) ? true
+// makes10(9, 9) ? false
+// makes10(1, 9) ? true
+
+**************************************************
+
+// Given two temperatures, return true if one is less than 0 and the other is
+// greater than 100.
+// icyHot(120, -1) ? true
+// icyHot(-1, 120) ? true
+// icyHot(2, 120) ? false
+
+***************************************************
+
+// Given 2 int values, return true if one is negative and one is positive.
+// Except if the parameter "negative" is true, then return true only if both are
+// negative.
+// posNeg(1, -1, false) ? true
+// posNeg(-1, 1, false) ? true
+// posNeg(-4, -5, true) ? true
+
+****************************************************
+
+// Given a string, return a version without the first and last char, so "Hello"
+// yields "ell". The string length will be at least 2.
+// withoutEnd("Hello") ? "ell"
+// withoutEnd("java") ? "av"
+// withoutEnd("coding") ? "odin
+
+**************************************************
+
+//Given 2 strings, return their concatenation, except omit the first char of each. 
+//The strings will be at least length 1.
+//nonStart("Hello", "There") ? "ellohere"
+//nonStart("java", "code") ? "avaode"
+//nonStart("shotl", "java") ? "hotlava
+
+******************************************************
+: : :BONUS: : :
+// Write a program that takes two Number Arrays as input, 
+// Then Compares both arrays against one another to 
+// find common values and places them into a New Array
+
+
+
+
+8/28/19
+
+// Write a Java program to print the area
+// and perimeter of a rectangle by taking width and height
+// of rectangle from the user.
+
+// Area = height * width;
+// perimeter = 2 * (height + width);
+
+***************************************************
+
+/*
+Given 2 int values greater than 0, 
+return whichever value is nearest to 21 without going over.
+Return 0 if they both go over.
+blackjack(19, 21) ? 21
+blackjack(21, 19) ? 21
+blackjack(19, 22) ? 19
+*/
+
+*****************************************************
+
+// Write a JavaScript program
+// that sums all elements in array
+// once you have the sum FIND
+// the average of the sum.
+
+******************************************************
+
+// Write a JavaScript program that takes a String
+// Converts the string to all lowercase letters
+// Then checks the String for vowel's.
+// If there are any , Keep Track By Using a Vowel Counter. 
+
+*********************************************************
+
+// Given two values , return a statement if one is greater than 10 and the other is less than 100.
+
+**********************************************************
+
+// Given two int values, return their sum. Unless the two values are the same,
+// then return double their sum.
+// sumDouble(1, 2) ? 3
+// sumDouble(3, 2) ? 5
+// sumDouble(2, 2) ? 8
+
