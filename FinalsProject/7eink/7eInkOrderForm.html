@@ -1,0 +1,183 @@
+<html>
+    
+<head>
+        <title>The 7 inch E-link model</title>
+        
+        <script src="/FinalsProject/7eink/7eInkOrderCalc.js"></script>
+
+  <center> 
+        
+        <style> body {background: blanchedalmond;} h1 {color: black;} h2 {color:black} 
+        border {margin: 20px;} </style>
+
+             <h1>
+      <a href="/FinalsProject/aboutCompany.html">
+        * THE GADGETRONICS STORE APP 
+      </a>
+    </h1>
+      
+        <a href="/FinalsProject/7eink/7eInk.html">
+          <img src="/FinalsProject/7eink/7eInkPhoto.jpg" alt="7eInkPhoto" height="110" width="270">
+        <h3 style="color: red"> The 7 inch E-INK model
+        </a>
+      </h3>  <h2 style="color: red">only $399</h2>
+
+</head>   
+      <body>
+ <!-- All the code above was placed in Head tags so it will execute/display before the JS/codes i.e date. -->
+                        <p id="demo"></p>
+
+                        <script>
+                        var x = new Date();
+                        document.getElementById("demo").innerHTML=x;
+                        </script>
+
+<div> <b>
+            <div class="alert alert-primary"> 
+            <p id="priceDisplay"></p>
+        
+            <label>
+            Quantity
+            <input id="Quantity" size="12" type="text" class="input"/>
+          </label>
+                      <label>
+                                Price Per Unit
+                        <input id="pricePerUnit" value="$399" size="12" type="text" class="input"/>
+                        </label>
+                   <button onclick="sevenEInkCalc()"> Total Amount </button>
+                              </b>
+                              </div>         
+ </div>
+                
+ <form name="7eInk_Orderform" action="mailto:pashittey@gmail.com" method="POST" enctype="text/plain">
+        <!-- <form name="7eInk_Orderform"> -->
+          </br>
+          <b><u> Customer Instructions : </u></b>
+                    <label>
+                    </br> 
+                <b>Free COLOR Options</b>(Please Specify One): *candy blue, *black(Standard), *rose gold *or white.  
+                                     </br>
+                                <b>& Free PRE-LOAD Options</b>(Please Specify One): *newspapers, *books *or comics. </br>
+                       <textarea name="CustomerInstructions" type="Comments" cols="90" rows="4"></textarea></br>
+                    </label>
+                </br>
+        <b><u> Contact Information : </u></b></br></br>
+                    <label>
+                      First Name
+                      <input size="50" type="text" class="name"/>
+                    </label>
+                    <label>
+                                Last Name
+                                <input size="50" type="text" class="name"/>
+                              </label>
+                        </br>
+                </br>
+                    <label>
+                       Address 
+                        <input size="105" type="text" class="Address"/>
+                      </label>
+                </br>
+        </br>
+        <label>
+                        Mailing Address(If different) 
+                         <input size="100" type="text" class="Address"/>
+                       </label>
+                 </br>
+        </br>
+        <label>
+                        Daytime Phone
+                        <input size="50" type="text" class="name"/>
+                      </label>
+                      <label>
+                                  Cell Phone 
+                                  <input size="50" type="text" class="name"/>
+                                </label>
+                          </br>
+                  </br>
+
+        <b><u> Credit Card Information : </u></b></br>
+                    <label>
+                     (As It Appears) On Credit/Debit Card: </br>
+                     Business Name/ First and Last Name
+                      <input size="100" type="text" class="name"/>
+                    </label>
+                    </br>
+                </br>
+                <label>
+                       Credit/Debit Card Number 
+                                 <input size="60" type="text" class="name"/>
+                               </label>
+                               <label>
+                                        Last 3 numbers on back of card
+                                <input size="12" type="text" class="name"/>
+                              </label>
+                        </br>
+                </br>
+                <label>
+                                Credit/Debit Card Expiration
+                                        <input size="30" type="text" class="Address"/>
+                                      </label>
+                                      Type?(visa/master/Amex/Discover etc)
+                                      <label>
+                                          <input size="30" type="text" class="subject"/>
+                                        </label>
+                                </br>
+                        </br>
+
+                    <label>
+                Credit/Debit Card Billing Address
+                        <input size="95" type="text" class="Address"/>
+                      </label>
+                </br>
+        </br>
+        <b><u> SHIP TO : </u></b></br></br>
+        <label>
+                       RECEPIENT FULL NAME  
+                         <input size="95" type="text" class="Address"/>
+                       </label>
+                </br>
+        </br>
+        <label>
+                        RECEPIENT SHIPPING ADDRESS 
+                                <input size="100" type="text" class="Address"/>
+                              </label>
+                        </br>
+                </br>
+                <label>
+                               RECEPIENT Daytime Phone
+                                <input size="50" type="text" class="name"/>
+                              </label>
+                              <label>
+                                         RECEPIENT Cell Phone 
+                                          <input size="50" type="text" class="name"/>
+                                        </label>
+                                  </br>
+                
+                <div class="status">
+                
+                </div>
+
+                <p style="text-align:end">
+                                <input type="reset" value="Reset">
+                                </p>
+ </br> 
+ <button type="submit" class="submit" onclick ="congrats7EInk()"><h2>Place Your Order !</h2></button>  
+</form> 
+        </br>
+</br>
+
+<script>
+ function  congrats7EInk() {
+window.confirm("CONGRATULATIONS !! Order successfully placed. A Representative will contact you within 24 hours to confirm your order for immediate shipping. For Any Questions Please Call ; Customer Service at 1-800-555-5555. Thank you for shopping with GADGETRONICS.");
+// window.open('mailto:pashittey@gmail.com'); 
+// (ps; This is commented out since the form "Action" does the same thing )
+window.close();
+ //  (ps; for security reasons, scripts are no longer allowed to close windows they didn't open, hence
+//  function congrats() both opened this page from previous page and closes it out)
+          }
+</script> 
+
+</center>
+</body>
+
+</html>

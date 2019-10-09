@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <form>
+Choose Color & Click to CONFIRM </br>
+<select id = "chapters">
+<option>I Want My E-Reader In ; BlACK</option>
+<option>I Want My E-Reader In ; ROSE GOLD</option>
+<option>I Want My E-Reader In ; WHITE</option>
+<option>I Want My E-Reader In ; CANDY BLUE</option>
+</select>
+<input type ="button" onclick ="Display()" value="CONFIRM !!!">
+<p id ="demo"></p>
+    </form>
+    
+        <script>
+       function Display() {
+         var obj = document.getElementById("chapters");
+         document.getElementById("demo").innerHTML=
+         obj.options[obj.selectedIndex].text;
+       }
+
+      </script>
+</body>
+</html>

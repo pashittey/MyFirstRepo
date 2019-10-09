@@ -1,0 +1,1 @@
+typeof undefined == typeof NULL

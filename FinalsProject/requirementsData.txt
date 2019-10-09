@@ -1,0 +1,184 @@
+
+The E-link models ;
+The 12 inch E-link model
+The 9 inch E-link model
+The 7 inch E-link model
+
+The 12 inch E-link model ;
+//Model number E674019
+//UPC Prefix 153790 
+//Starting count 3276
+//Wifi
+//Headphone jack
+//GPS
+//SD Card
+//Android Operating System
+//Box includes :
+charger
+manual
+headphones
+//Touchscreen only(no buttons) 
+//Games uninstallable
+//Batteries included (Non-replaceable)
+//Network Options :
+*bluetooth
+*or carrier data module
+//Pre-loaded Options :
+*books
+*newspapers
+*or comics
+//Color Options :
+*candy blue
+*black
+*rose gold
+*or white
+
+The 9 inch E-link model ;
+//Model number E443019
+//UPC Prefix 426852 
+//Starting count 6487
+//Wifi
+//Headphone jack
+//GPS
+//SD Card
+//Android Operating System
+//Box includes :
+charger
+manual
+headphones
+//Touchscreen and buttons
+//Games uninstallable
+//Batteries included (Non-replaceable)
+//Network Options :
+*bluetooth
+*or carrier data module
+//Pre-loaded Options :
+*books
+*newspapers
+*or comics
+//Color Options :
+*candy blue
+*black
+*rose gold
+*or white
+
+The 7 inch E-link model ;
+//Model number E332019
+//UPC Prefix 753901
+//Starting count 7593
+//Wifi
+//Headphone jack
+//GPS
+//SD Card
+//Android Operating System
+//Box includes :
+charger
+manual
+headphones
+//Buttons only(no touchscreen)
+//Games uninstallable
+//Batteries included (Non-replaceable)
+//Network Options :
+*bluetooth
+*or carrier data module
+//Pre-loaded Options :
+*books
+*newspapers
+*or comics
+//Color Options :
+*candy blue
+*black
+*rose gold
+*or white
+
+OLED models ;
+The 12 inch OLED model
+The 9 inch OLED model
+The 7 inch OLED model
+
+The 12 inch OLED model ;
+//Model number E674600 
+//UPC Prefix 567643 
+//starting count 3938
+//Wifi
+//Headphone jack
+//GPS
+//SD Card
+//Android Operating System
+//Box includes :
+charger
+manual
+headphones
+//Touchscreen only(no buttons)
+//Installs games
+//Batteries included (Replaceable)
+//Network Options :
+*bluetooth
+*or carrier data module
+//Pre-loaded Options :
+*books
+*newspapers
+*or comics
+//Color Options :
+*candy blue
+*black
+*rose gold
+*or white
+
+The 9 inch OLED model ;
+//Model number E443400 
+//UPC Prefix 858532
+//starting count 4476
+//Wifi
+//Headphone jack
+//GPS
+//SD Card
+//Android Operating System
+//Box includes :
+charger
+manual
+headphones
+//Touchscreen only(no buttons)
+//Installs games
+//Batteries included (Replaceable)
+//Network Options :
+*bluetooth
+*or carrier data module
+//Pre-loaded Options :
+*books
+*newspapers
+*or comics
+//Color Options :
+*candy blue
+*black
+*rose gold
+*or white
+
+The 7 inch OLED model ;
+//Model number E332400 
+//UPC Prefix 131342 
+//starting count 4688
+//Wifi
+//Headphone jack
+//GPS
+//SD Card
+//Android Operating System
+//Box includes :
+charger
+manual
+headphones
+//Touchscreen and buttons
+//Installs games
+//Batteries included (Replaceable)
+//Network Options :
+*bluetooth
+*or carrier data module
+//Pre-loaded Options :
+*books
+*newspapers
+*or comics
+//Color Options :
+*candy blue
+*black
+*rose gold
+*or white

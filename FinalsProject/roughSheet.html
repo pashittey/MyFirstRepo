@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+  <center> 
+  <h2>JS Example</h2>
+<p>Please inut a number between 1 and 5</p>
+<input id="num">
+<button type="button" onclick = "demoFun()">submit</button>
+
+
+<p id="demo"></p>
+
+<script>
+ function demoFun() {
+var no, text;
+no = document.getElementById("num").value;
+if(no<1 || no>5) {
+  text = "the number is greater than 5"
+}
+  else{
+    window.open("vsProject1.html");
+  }
+ 
+document.getElementById("demo").innerHTML=text;
+}
+</script>
+</center>
+</body>
+</html>

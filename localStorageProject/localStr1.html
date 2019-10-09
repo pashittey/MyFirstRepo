@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>The 12 inch E-link model</title>
+</head>
+<body> 
+    <center> 
+       
+        <style> body {background: blanchedalmond;} h1 {color: black;} h3 {color: red;} 
+        border {margin: 20px;} </style>
+
+             <h1> THE GADGETRONICS STORE APP</h1>
+      <h3>Nobody Pays Retail Anymore So Why Should You ?!!!</h3>
+
+
+        <img src="./12eInkPhoto.jpg" alt="12eInkPhoto" height="202" width="500">
+        <h2> The 12 inch E-INK model ;</h2>  <h1 style="color: red">only $799</h1>
+
+        <table style="width:750px">
+
+          <tr>
+            <td>-Model number E674019 </td>
+            <td> -Touchscreen only(no buttons)</td>
+            <td>-Batteries included (Non-replaceable) </td>
+          </tr>
+          
+          <tr>
+          <td>-SD Card</td>
+          <td>-Wifi</td>
+          <td>-Headphone jack</td>
+          </tr>
+
+          <tr>
+              <td>-GPS</td>
+          <td>-Games uninstallable</td>
+          <td>-Android Operating System</td>
+          </tr>
+<tr>
+<td>-UPC Prefix 153790 </br>
+  charger </br>
+  manual </br>
+  headphones </br></td>
+  
+  <td>-Starting count 3276 </br>
+ </br></td>
+</tr>
+          </table> </br>
+          <form name="myform" onsubmit="tosubmit();" action="confirm1.html">
+              <label for="customerInstructions"><b><u>Customer Instructions</u></b> </label><br>
+              Color Options <b>(Specify one):  </b></br>
+              *candy blue, *black(Standard), *rose gold *or white         
+                             
+                           </br>
+             Pre-load Options<b>(Specify one)</b>:</br>
+             *newspapers, *books *or comics </br>
+            </label>
+             <input  id="customerInstructionsText" style="height: 49%" size="140" 
+                          type="text" name="data">
+                          <h2></h2><input type="submit" value="Order Now !"></h2>
+                        </br>
+              </br>
+                      </form>
+                    </br>
+                  </br>
+               
+            <script>
+                      // Called on form's `onsubmit`
+                      function tosubmit() {
+                          // Getting the value of your text input
+                          var customerInstructionsText = document.getElementById("customerInstructionsText").value;
+                          // Storing the value above into localStorage
+                          localStorage.setItem("customerInstructionsText", customerInstructionsText);
+              
+                          return true;
+                      }
+            </script>
+
+    </center>
+  
+</body>
+</html>

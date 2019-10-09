@@ -1,0 +1,8 @@
+function twelveOledCalc () {
+  var x = Number(document.getElementById('Quantity').value)
+  var y = 999
+  var d = 'Total Amount Due $'
+  var multi = d + x * y
+  document.getElementById('priceDisplay').innerHTML = multi
+};
+console.log(twelveOledCalc())
